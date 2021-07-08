@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          React bo'yicha 1 - loyiha G92 guruh bilan
+          React bo'yicha 1 - loyiha G89 guruh bilan
         </p>
         <a
           className="App-link"

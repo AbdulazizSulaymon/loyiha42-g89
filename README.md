@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# React bo'yicha 1 - loyiha G89 guruh bilan
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
