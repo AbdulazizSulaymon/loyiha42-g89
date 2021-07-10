@@ -24,24 +24,16 @@ function App() {
     <div className="App">
       <div className="container">
         <div className="row mt-5">
-          <div className="col-md-4">
-            <Card
-              img={data[0].img}
-              title={data[0].title}
-              subtitle={data[0].subtitle} />
-          </div>
-          <div className="col-md-4">
-            <Card
-              img={data[1].img}
-              title={data[1].title}
-              subtitle={data[1].subtitle} />
-          </div>
-          <div className="col-md-4">
-            <Card
-              img={data[2].img}
-              title={data[2].title}
-              subtitle={data[2].subtitle} />
-          </div>
+          {
+            data.map((value, index) => {
+              return <div className="col-md-4">
+                <Card
+                  img={value.img}
+                  title={value.title}
+                  subtitle={value.subtitle} />
+              </div>
+            })
+          }
         </div>
       </div>
     </div>
